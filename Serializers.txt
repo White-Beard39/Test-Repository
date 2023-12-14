@@ -1,0 +1,5 @@
+from django.HTTP import JSONResponse
+
+class MyTaskSerializer :
+	def list(self, req_params):
+		req_vlaue = req_params.get['assigned_to']

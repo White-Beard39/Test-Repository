@@ -1,0 +1,5 @@
+class MyTask (models.model) :
+
+name=models.CharFiled(max_length=128)
+roll=models.CharFiled(max_lenght=8)
+
