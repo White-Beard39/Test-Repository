@@ -2,4 +2,5 @@ class MyTask (models.model) :
 
 name=models.CharFiled(max_length=128)
 roll=models.CharFiled(max_lenght=8)
-
+place = models.CharFiled(max_lenght=256)
+#Burrapadu, naa istam vacchinavi rasta. Na code naa istam

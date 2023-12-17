@@ -1,5 +1,5 @@
 from django.HTTP import JSONResponse
-#chaninging for master2, this shouldn't reflect on master1 and main
-class MyTaskSerializer :
+#this is the from the git practice 2
+class JimpakChipak :
 	def list(self, req_params):
 		req_vlaue = req_params.get['assigned_to']
